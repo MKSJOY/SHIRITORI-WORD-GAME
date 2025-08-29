@@ -25,6 +25,3 @@ Players take turns entering words following Shiritori rules:
 - Reset game functionality.
 
 ---
-
-## 📂 Project Structure
-
