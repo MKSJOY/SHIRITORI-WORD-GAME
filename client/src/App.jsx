@@ -66,9 +66,6 @@ export default function App() {
       const meta = await getWordMetadata(word);
       if (!meta.valid) return applyPenalty(currentPlayer, "Word not found in dictionary.");
 
-
-      if (/[A-Z]/.test(rawWord)) return applyPenalty(currentPlayer, "Proper nouns not allowed.");
-
       setHistory((h) => [...h, word]);
       setRawHistory((r) => [...r, rawWord]);
       setScores((s) => ({ ...s, [currentPlayer]: s[currentPlayer] + 1 }));
