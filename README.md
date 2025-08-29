@@ -40,7 +40,7 @@ git clone <your-repo-url>
 cd shiritori-game/client
 npm install
 npm run dev
-Open your browser at http://localhost:5173 to play.
+Open your browser at http://localhost:5173 or use live link: https://shiritori-word-game.vercel.app/ to play.
 The game automatically switches turns and validates words.
 
 ## 🔄 Reset Game
