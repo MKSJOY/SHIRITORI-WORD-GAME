@@ -25,3 +25,34 @@ Players take turns entering words following Shiritori rules:
 - Reset game functionality.
 
 ---
+
+- **`components/`** → React components for game UI.  
+- **`utils/`** → Helper functions for word normalization, validation, and DictionaryAPI calls.  
+- **`App.jsx`** → Main game logic.  
+- **`styles.css`** → All styles including timer bar, scoreboard, inputs, etc.  
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+git clone <your-repo-url>
+cd shiritori-game/client
+npm install
+npm run dev
+Open your browser at http://localhost:5173 to play.
+The game automatically switches turns and validates words.
+
+## 🔄 Reset Game
+Click the Reset Game button to start a new game.
+
+## 📝 Notes
+No backend required; all validation is done on the frontend using DictionaryAPI.
+The game is mobile-friendly and responsive.
+Active player is highlighted, and timer flashes red in the last 5 seconds.
+
+## 🛠️ Tech Stack
+React 19
+Vite
+Axios for API calls
+CSS for styling
